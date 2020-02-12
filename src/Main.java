@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Введи 2-ое -число: ");
         int b = in.nextInt();
         System.out.print("Итоговая сумма: ");
-        System.out.print(a+b);
+        System.out.println(a+b);
         System.out.println(" Было приятно познакомиться.");
     }
 }
