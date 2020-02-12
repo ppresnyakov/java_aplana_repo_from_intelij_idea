@@ -15,5 +15,6 @@ public class Main {
         int b = in.nextInt();
         System.out.print("Итоговая сумма: ");
         System.out.print(a+b);
+        System.out.println(" Было приятно познакомиться.");
     }
 }
