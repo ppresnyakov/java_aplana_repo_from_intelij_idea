@@ -3,19 +3,17 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args)
     {
-        int x,y,z,middlenumber;
-        System.out.println("Введите x:");
+        int x=1,y=5,z=10,number;
+        System.out.println("Введите число:");
         Scanner in = new Scanner(System.in);
-        x = in.nextInt();
-        System.out.println("Введите y:");
-        y = in.nextInt();
-        System.out.println("Введите z:");
-        z = in.nextInt();
-        middlenumber = ((x + y + z)/3);
-        System.out.println("Среднее арифметическое: " + middlenumber  );
-        System.out.println("Среднее арифметическое, поделенное на 2 без остатка: " + (middlenumber/2) );
-        if ((middlenumber/2) > 3) {
-        System.out.println("Программа выполнена правильно." );
+        number = in.nextInt();
+
+        if (number == x | number == y| number == z) {
+            System.out.println("Данное значение имеется в константах");
+        }
+            else
+        {  System.out.println("Такой константы нет!");}
+
     }
     }
-}
+
