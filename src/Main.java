@@ -3,24 +3,27 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args)
     {
-        int ArraySize;
-        System.out.println("Введите размер массива:");
+        int Lines,Columns;
+        System.out.println("Введите количество строк матрицы:");
         Scanner in = new Scanner(System.in);
-        ArraySize = in.nextInt();
+        Lines = in.nextInt();
+        System.out.println("Введите количество столбцов матрицы:");
+        Columns = in.nextInt();
 
-        int MyArray[] = new int[ArraySize];
+        int MyArray[][] = new int[Lines][Columns];
 
-        for (int i = 0; i<ArraySize; i++ ){
-            System.out.println("Введите "+ i + " элемент массива ");
-            MyArray[i] = in.nextInt();
+        for (int i = 0; i<Lines; i++ ){
+            for (int y = 0; y<Columns; y++ ) {
+                System.out.println("Введите элемент матрицы, строка " + i + " столбец " + y  );
+                MyArray[i][y] = in.nextInt();
+            }
         }
-
-        System.out.println("Элементы массива, умноженные на 2.");
-        for (int i = 0; i<ArraySize; i++ ){
-            System.out.print(MyArray[i]* 2 + " ");
+        System.out.println("Первая строка матрицы: ");
+        for (int i= 0; i<Columns; i++ ){
+            System.out.print(MyArray[1][i]+ " ");
 
         }
-
     }
     }
+
 
