@@ -19,8 +19,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="68">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -110,7 +110,7 @@
       <updated>1581534196605</updated>
       <workItem from="1581534198175" duration="2199000" />
       <workItem from="1581677242040" duration="376000" />
-      <workItem from="1582292180713" duration="4589000" />
+      <workItem from="1582292180713" duration="4623000" />
     </task>
     <task id="LOCAL-00001" summary="Создали простую консольную программу.">
       <created>1581536139956</created>
@@ -161,11 +161,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582295964409</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Задача №8: Цикличный вывод данных на экран">
+      <created>1582296787270</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582296787270</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7164000" />
+    <option name="totallyTimeSpent" value="7198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -215,7 +222,8 @@
     <MESSAGE value="Задача 5. Таблица умножения для конкретного числа без цикла." />
     <MESSAGE value="Задача 6. Отработка арифметических операций" />
     <MESSAGE value="Задача №7: Условие вывода данных" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задача №7: Условие вывода данных" />
+    <MESSAGE value="Задача №8: Цикличный вывод данных на экран" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задача №8: Цикличный вывод данных на экран" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
@@ -234,8 +242,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="68">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
