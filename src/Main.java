@@ -3,22 +3,19 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args)
     {
-        int NumberD;
-        System.out.println("Привет как дела? Введи число, а я выведу для него таблицу умножения. Принимаю от 1 до 10.");
+        int x,y,z,middlenumber;
+        System.out.println("Введите x:");
         Scanner in = new Scanner(System.in);
-
-        NumberD = in.nextInt();
-        System.out.println("Таблица умножения для числа " + NumberD +":");
-        System.out.println( NumberD + " X 1 = " + NumberD );
-        System.out.println( NumberD + " X 2 = " + NumberD * 2);
-        System.out.println( NumberD + " X 3 = " + NumberD * 3);
-        System.out.println( NumberD + " X 4 = " + NumberD * 4);
-        System.out.println( NumberD + " X 5 = " + NumberD * 5);
-        System.out.println( NumberD + " X 6 = " + NumberD * 6);
-        System.out.println( NumberD + " X 7 = " + NumberD * 7);
-        System.out.println( NumberD + " X 8 = " + NumberD * 8);
-        System.out.println( NumberD + " X 9 = " + NumberD * 9);
-        System.out.println( NumberD + " X 10 = " + NumberD * 10);
-
+        x = in.nextInt();
+        System.out.println("Введите y:");
+        y = in.nextInt();
+        System.out.println("Введите z:");
+        z = in.nextInt();
+        middlenumber = ((x + y + z)/3);
+        System.out.println("Среднее арифметическое: " + middlenumber  );
+        System.out.println("Среднее арифметическое, поделенное на 2 без остатка: " + (middlenumber/2) );
+        if ((middlenumber/2) > 3) {
+        System.out.println("Программа выполнена правильно." );
+    }
     }
 }
