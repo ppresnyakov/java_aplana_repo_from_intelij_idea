@@ -10,9 +10,9 @@ public class Task6 {
         int y = in.nextInt();
         System.out.println("Введите z:");
         int z = in.nextInt();
-        double middlenumber = (x + y + z) / 3;
-        System.out.println("Среднее арифметическое: " + middlenumber);
-        System.out.println("Среднее арифметическое, поделенное на 2 без остатка: " + middlenumber / 2);
+        double middlenumber = (double)(x + y + z) / 3;
+        System.out.println("Среднее арифметическое: " +  middlenumber);
+        System.out.println("Среднее арифметическое, поделенное на 2 без остатка: " + (int)middlenumber / 2);
         if ( middlenumber / 2  > 3) {
             System.out.println("Программа выполнена правильно." );
         }

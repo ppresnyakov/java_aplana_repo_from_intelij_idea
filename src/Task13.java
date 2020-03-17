@@ -11,14 +11,16 @@ public class Task13 {
         System.out.println("Введите вторую строку:");
         String SecondString = in.nextLine();
         if (FirstString.length() > SecondString.length()){
-            System.out.println(FirstString);}
-            else if (FirstString.length() < SecondString.length()) {
+            System.out.println(FirstString);
+        }
+        else if (FirstString.length() < SecondString.length()){
             System.out.println(SecondString);
         }
         else if (FirstString.length() == SecondString.length()){
             System.out.println("Длина строк одинакова");
         }
-        else{System.out.println("Что-то пошло не так.");}
+        else{System.out.println("Что-то пошло не так.");
+        }
     }
 }
 
