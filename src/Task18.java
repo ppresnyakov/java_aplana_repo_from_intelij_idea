@@ -25,7 +25,7 @@ public class Task18 {
             do {
                 System.out.print("Введите " +  i + " строку:");
                 s = br.readLine();
-                if (s.compareTo("стоп") == 0) break;
+                if (s.equals("стоп")) break;
                 s = s + "\r\n";
                 fw.write(s);
                 i++;
