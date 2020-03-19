@@ -5,7 +5,7 @@ public class Task18 {
     public static void main(String[] args) {
         String s;
         int CountLines = 0;
-        try { BufferedReader br = new BufferedReader(new FileReader("f:/test.txt"));
+        try { BufferedReader br = new BufferedReader(new FileReader("test18.txt"));
             while ((s = br.readLine()) != null)
             {
                 System.out.println(s);
@@ -21,7 +21,7 @@ public class Task18 {
         if (CountLines > 0) {
         System.out.println("Вы можете вввести " + CountLines + " строк(и). Вводите:"  );
         try {
-            FileWriter fw = new FileWriter("F:/test.txt");
+            FileWriter fw = new FileWriter("test18.txt");
             do {
                 System.out.print("Введите " +  i + " строку:");
                 s = br.readLine();

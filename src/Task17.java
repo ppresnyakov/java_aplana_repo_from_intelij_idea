@@ -2,7 +2,7 @@ import java.io.*;
 
 public class Task17 {
     public static void main(String[] args) {
-        String str;
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Набирайте текст для записи его в файл. Как закончите, наберите команду остановки.");
 
@@ -10,11 +10,11 @@ public class Task17 {
             FileWriter fw = new FileWriter("test17.txt");
             do {
                 System.out.print("Введите текст: ");
-                str = br.readLine();
-                if (str.compareTo("стоп") == 0) break;
+                String str = br.readLine();
+                if (str.equals("стоп")) break;
                 str = str + "\r\n";
                 fw.write(str);
-            } while (str.compareTo("стоп") != 0);
+            } while (true) ;
             fw.close();
         } catch (IOException exc) {
             System.out.println("Ошибка ввод вывода: " + exc);
