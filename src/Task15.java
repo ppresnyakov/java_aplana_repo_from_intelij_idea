@@ -17,12 +17,12 @@ public class Task15 {
         for (int i = 0; i < ArraySize; i++) {
             System.out.print(MyArray[i] + " ");
         }
-        int temp;
+
         //начинаем сортировать пызырьком
         for (int i = ArraySize -1; i > 0; i--) {
             for (int j = 0; j < i; j++) {
                 if (MyArray[j] > MyArray[j + 1]) {
-                    temp = MyArray[j];
+                    int temp = MyArray[j];
                     MyArray[j] = MyArray[j + 1];
                     MyArray[j+1] = temp;
                 }

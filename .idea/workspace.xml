@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1921378f-b050-41fa-b386-62b33198bcf2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Task15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test18.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task17.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +22,8 @@
       <file leaf-file-name="Task13.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Task13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task15.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Task15.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Task15.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="442">
+              <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -44,17 +43,17 @@
       <file leaf-file-name="Task16.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Task16.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task17.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Task17.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Task17.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -141,9 +140,9 @@
         <option value="$PROJECT_DIR$/src/Task13.java" />
         <option value="$PROJECT_DIR$/src/Task6.java" />
         <option value="$PROJECT_DIR$/src/Task14.java" />
-        <option value="$PROJECT_DIR$/src/Task15.java" />
         <option value="$PROJECT_DIR$/src/Task18.java" />
         <option value="$PROJECT_DIR$/src/Task16.java" />
+        <option value="$PROJECT_DIR$/src/Task15.java" />
         <option value="$PROJECT_DIR$/src/Task17.java" />
       </list>
     </option>
@@ -169,8 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,7 +274,8 @@
       <workItem from="1583171016112" duration="3998000" />
       <workItem from="1584377167522" duration="5615000" />
       <workItem from="1584385266347" duration="805000" />
-      <workItem from="1584463221303" duration="1831000" />
+      <workItem from="1584463221303" duration="1947000" />
+      <workItem from="1584630482798" duration="467000" />
     </task>
     <task id="LOCAL-00001" summary="Создали простую консольную программу.">
       <created>1581536139956</created>
@@ -375,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583176272895</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Исправлено 6 задание.&#10;Сделаны 15-18 задания.">
+      <created>1584465144606</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584465144607</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24596000" />
+    <option name="totallyTimeSpent" value="25179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -387,15 +394,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32943678" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50078124" side_tool="true" weight="0.3299435" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299435" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921876" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.19341126" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49921876" weight="0.32943678" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -413,6 +419,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32943678" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,7 +444,8 @@
     <MESSAGE value="Поправлены задания, согласно комментариям." />
     <MESSAGE value="Выполнены 11-14 задания" />
     <MESSAGE value="Выполнены 11-14 задания." />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполнены 11-14 задания." />
+    <MESSAGE value="Исправлено 6 задание.&#10;Сделаны 15-18 задания." />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлено 6 задание.&#10;Сделаны 15-18 задания." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -766,13 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Task8.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -796,11 +797,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Task13.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -811,24 +826,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task17.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Task16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Task15.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task17.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
         </state>
       </provider>
     </entry>

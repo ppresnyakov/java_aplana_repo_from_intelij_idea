@@ -7,7 +7,7 @@ public class Task17 {
         System.out.println("Набирайте текст для записи его в файл. Как закончите, наберите команду остановки.");
 
         try {
-            FileWriter fw = new FileWriter("F:/test2.txt");
+            FileWriter fw = new FileWriter("test17.txt");
             do {
                 System.out.print("Введите текст: ");
                 str = br.readLine();
