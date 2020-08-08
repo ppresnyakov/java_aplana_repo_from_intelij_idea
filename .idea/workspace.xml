@@ -20,8 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1921378f-b050-41fa-b386-62b33198bcf2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Java2_Task2_Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Candys/CandyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Candys/Choclate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Candys/ChupaChups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Candys/MarshMallow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HappyNewYearPresent_Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task_4_JAVA_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneralTask1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneralTask2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GeneralTask3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java2_Task2_Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java2_Task2_Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test18.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +90,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -73,14 +103,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Java2_Task2_Calculator">
-    <configuration name="GeneralTask1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GeneralTask1" />
-      <module name="java_aplana_repo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HappyNewYearPresent_Task4">
     <configuration name="GeneralTask2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GeneralTask2" />
       <module name="java_aplana_repo" />
@@ -88,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeneralTask3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GeneralTask3" />
+    <configuration name="HappyNewYearPresent_Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HappyNewYearPresent_Task4" />
       <module name="java_aplana_repo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,27 +125,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task16" />
+    <configuration name="Task18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task18" />
+      <module name="java_aplana_repo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_4_JAVA_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task_4_JAVA_2" />
       <module name="java_aplana_repo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GeneralTask1" />
       <item itemvalue="Application.GeneralTask2" />
-      <item itemvalue="Application.GeneralTask3" />
-      <item itemvalue="Application.Task16" />
       <item itemvalue="Application.Java2_Task2_Calculator" />
+      <item itemvalue="Application.Task18" />
+      <item itemvalue="Application.Task_4_JAVA_2" />
+      <item itemvalue="Application.HappyNewYearPresent_Task4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HappyNewYearPresent_Task4" />
+        <item itemvalue="Application.Task_4_JAVA_2" />
+        <item itemvalue="Application.Task18" />
         <item itemvalue="Application.Java2_Task2_Calculator" />
         <item itemvalue="Application.GeneralTask2" />
-        <item itemvalue="Application.GeneralTask3" />
-        <item itemvalue="Application.GeneralTask1" />
-        <item itemvalue="Application.Task16" />
       </list>
     </recent_temporary>
   </component>
@@ -294,6 +324,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создали простую консольную программу." />
@@ -316,26 +347,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="Поправлены 16-17 задания." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1596900648654">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596900648654" />
     <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1595966350969">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="740" y="335" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1595966350969" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1595968600135">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1877" height="206" key="GridCell.Tab.0.bottom" timestamp="1596901539487">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596901539487" />
     <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1595968600135" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1595968600134">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1877" height="206" key="GridCell.Tab.0.center" timestamp="1596901539487">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="206" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596901539487" />
     <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1595968600134" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1595968600134">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1877" height="206" key="GridCell.Tab.0.left" timestamp="1596901539487">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="206" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596901539487" />
     <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1595968600134" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1595968600134">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1877" height="206" key="GridCell.Tab.0.right" timestamp="1596901539487">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="206" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596901539487" />
     <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1595968600134" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1596894861229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596894861229" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1596894861228">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596894861228" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1596894861228">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596894861228" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1596894861228">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596894861228" />
     <state x="461" y="225" key="SettingsEditor" timestamp="1595966364809">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
