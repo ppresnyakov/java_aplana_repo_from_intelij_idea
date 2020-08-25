@@ -1,6 +1,6 @@
 package Candys;
 
-public class CandyMain {
+public class  CandyMain {
     private Double price;
     private String Brand;
     private Double Weight;
@@ -14,9 +14,7 @@ public class CandyMain {
         return price;
     }
 
-    public String getBrand() {
-        return Brand;
-    }
+    public String getBrand() { return Brand;}
 
     public Double getWeight() {
         return Weight;

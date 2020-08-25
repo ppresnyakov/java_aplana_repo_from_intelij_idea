@@ -30,10 +30,7 @@ public class Java2_Task2_Calculator {
      *Написал студент
      *Умеет делить принимает два числа
      */
-    public static Double  Division (double value1, double value2){
-        double Summ ;
-        Summ = value1 / value2;
-        return Summ;}
+
 
     public static boolean  Calculator(){
         double a, b, sum;
@@ -54,7 +51,15 @@ public class Java2_Task2_Calculator {
                 sum = a * b;
                 System.out.printf("Вы выбрали умножение.Получилась сумма: %.4f", sum);
             }else if (OperationType == 3) {
-                System.out.printf("Вы выбрали деление.Получилась сумма: %.4f", Division(a, b));
+                    try {
+                     sum = a / b;
+                    if (sum == Double.POSITIVE_INFINITY) {
+                        throw new ArithmeticException();
+                    }
+                    else {System.out.printf("Вы выбрали деление.Получилась сумма: %.4f", sum);}
+                    } catch (ArithmeticException ae) {
+                        System.out.println("На ноль делить нельзя!");
+                    }
             }else if (OperationType == 4) {
                 sum = a - b;
                 System.out.printf("Вы выбрали вычитание.Получилась сумма: %.4f", sum);

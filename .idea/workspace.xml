@@ -19,12 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1921378f-b050-41fa-b386-62b33198bcf2" name="Default" comment="Изменил 4 задание по массиву.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalcClasses/Calclulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalcClasses/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalcClasses/Task5Calculator.java" afterDir="false" />
+    <list default="true" id="1921378f-b050-41fa-b386-62b33198bcf2" name="Default" comment="Добавлено задание 5 по ООП калькулятор.">
+      <change afterPath="$PROJECT_DIR$/src/Candys/SetOfCandy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task7Collections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Candys/CandyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Candys/CandyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HappyNewYearPresent_Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HappyNewYearPresent_Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java2_Task2_Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java2_Task2_Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +61,15 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectId" id="1fKTh2s0DilFpb7tGvz8t4o1WCe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -79,7 +84,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task5Calculator">
+  <component name="RunManager" selected="Application.Java2_Task2_Calculator">
     <configuration name="HappyNewYearPresent_Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HappyNewYearPresent_Task4" />
       <module name="java_aplana_repo" />
@@ -89,13 +94,6 @@
     </configuration>
     <configuration name="Java2_Task2_Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java2_Task2_Calculator" />
-      <module name="java_aplana_repo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task18" />
       <module name="java_aplana_repo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,6 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task7Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task7Collections" />
+      <module name="java_aplana_repo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task_4_JAVA_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task_4_JAVA_2" />
       <module name="java_aplana_repo" />
@@ -122,19 +127,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Java2_Task2_Calculator" />
-      <item itemvalue="Application.Task18" />
-      <item itemvalue="Application.Task_4_JAVA_2" />
       <item itemvalue="Application.HappyNewYearPresent_Task4" />
+      <item itemvalue="Application.Java2_Task2_Calculator" />
       <item itemvalue="Application.Task5Calculator" />
+      <item itemvalue="Application.Task7Collections" />
+      <item itemvalue="Application.Task_4_JAVA_2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task5Calculator" />
-        <item itemvalue="Application.HappyNewYearPresent_Task4" />
-        <item itemvalue="Application.Task_4_JAVA_2" />
-        <item itemvalue="Application.Task18" />
         <item itemvalue="Application.Java2_Task2_Calculator" />
+        <item itemvalue="Application.Task7Collections" />
+        <item itemvalue="Application.HappyNewYearPresent_Task4" />
+        <item itemvalue="Application.Task5Calculator" />
+        <item itemvalue="Application.Task_4_JAVA_2" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597413214339</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Добавлено задание 5 по ООП калькулятор.">
+      <created>1597522350989</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1597522350989</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -323,6 +335,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Создали простую консольную программу." />
     <MESSAGE value="Перенесли строку с прощанием." />
     <MESSAGE value="Подправили основной Main.java&#10;Числа для складывания, теперь называются fistInt и secondInt, вместо a+b. Добавленые пробелы для читаемости кода." />
@@ -342,7 +355,8 @@
     <MESSAGE value="Поправлены 16-17 задания." />
     <MESSAGE value="Многое удалено. Оставлено только для 2 курса Джавы." />
     <MESSAGE value="Изменил 4 задание по массиву." />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменил 4 задание по массиву." />
+    <MESSAGE value="Добавлено задание 5 по ООП калькулятор." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлено задание 5 по ООП калькулятор." />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597415274995">
@@ -365,50 +379,54 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="740" y="335" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1595966350969" />
-    <state width="1877" height="206" key="GridCell.Tab.0.bottom" timestamp="1597522173600">
+    <state width="1877" height="197" key="GridCell.Tab.0.bottom" timestamp="1598376528372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="206" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597522173600" />
+    <state width="1877" height="197" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598376528372" />
     <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1595968600135" />
-    <state width="1877" height="206" key="GridCell.Tab.0.center" timestamp="1597522173599">
+    <state width="1877" height="197" key="GridCell.Tab.0.center" timestamp="1598376528371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="206" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597522173599" />
+    <state width="1877" height="197" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598376528371" />
     <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1595968600134" />
-    <state width="1877" height="206" key="GridCell.Tab.0.left" timestamp="1597522173599">
+    <state width="1877" height="197" key="GridCell.Tab.0.left" timestamp="1598376528371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="206" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597522173599" />
+    <state width="1877" height="197" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598376528371" />
     <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1595968600134" />
-    <state width="1877" height="206" key="GridCell.Tab.0.right" timestamp="1597522173600">
+    <state width="1877" height="197" key="GridCell.Tab.0.right" timestamp="1598376528371">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="206" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597522173600" />
+    <state width="1877" height="197" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598376528371" />
     <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1595968600134" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1597521217321">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1598376528369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597521217321" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1597521217321">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598376528369" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1598376528369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597521217321" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1597521217321">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598376528369" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1598376528369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597521217321" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1597521217321">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598376528369" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1598376528369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597521217321" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598376528369" />
     <state x="461" y="225" key="SettingsEditor" timestamp="1595966364809">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="461" y="225" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1595966364809" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597413222287">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597522356437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597413222287" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597522356437" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1598192486407">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598192486407" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -419,6 +437,9 @@
         <watch expression="i" language="JAVA" />
         <watch expression="A.getNumber()" language="JAVA" />
         <watch expression="A.getNumber() + B.getNumber()" language="JAVA" />
+        <watch expression="(Collections.frequency(Words, word )" language="JAVA" />
+        <watch expression="(String) word" language="JAVA" />
+        <watch expression="MaxSlovo" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
