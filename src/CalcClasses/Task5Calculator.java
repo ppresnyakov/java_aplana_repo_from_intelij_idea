@@ -17,6 +17,6 @@ public class Task5Calculator {
         OperationType = in.next();
         Calclulator Calc1 = new Calclulator(Number1,Number2, OperationType);
         if (Calc1.getISResultOk()){System.out.println("Результат: " + Calc1.getResult());}
-        else { System.out.println("Результата нет. Что то пошло не так: Число 1 " + Number1.getNumber() + "Число 2" + Number1.getNumber() + " Операция - " + Calc1.getOperation() );}
+        else { System.out.println("Результата нет. Что то пошло не так: Число 1: " + Number1.getNumber() + " Число 2: " + Number1.getNumber() + " Операция - " + Calc1.getOperation() );}
     }
 }
