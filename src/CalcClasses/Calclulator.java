@@ -15,13 +15,13 @@ public class Calclulator {
         else if (Operation.equals("*")) {result = A.getNumber() * B.getNumber();}
         else if (Operation.equals("/"))
         {
-            try {result = A.getNumber() / B.getNumber();
+            result = A.getNumber() / (B.getNumber());
                 if (result == Double.POSITIVE_INFINITY) {
+                    IsResultOk = false;
                     throw new ArithmeticException();
                 }
-            } catch(ArithmeticException ae) {IsResultOk = false; System.out.println("На ноль делить нелья!");};
         }
-        else {System.out.println("Неверный математический оператор."); IsResultOk = false;}
+        else {IsResultOk = false;}
     }
     public double getResult() {
         return result;

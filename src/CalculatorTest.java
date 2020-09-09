@@ -1,8 +1,9 @@
-import javafx.beans.binding.NumberBinding;
 import org.junit.*;
-import static org.junit.Assert.*;
 import CalcClasses.Calclulator;
 import CalcClasses.Number;
+import org.junit.rules.ExpectedException;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.not;
 
 import java.io.IOException;
 
@@ -13,38 +14,65 @@ import java.io.IOException;
 public class CalculatorTest {
 
     @Test
-    public  void TestAllOperations(){
-        String[] OperationArray = new String[4];
-        OperationArray[0] = "+";
-        OperationArray[1] = "-";
-        OperationArray[2] = "/";
-        OperationArray[3] = "*";
-        String CurrentOperation = null;
+    public  void TestPlus(){
+        String Operation = "+";
         Double BeginNumber = 5.5;
-        for (int i = 0; i < 3; i++) {
-            CurrentOperation = OperationArray[i];
             for (int j = -5; j < 5; j++) {
                 Number A = new Number(BeginNumber);
                 Number B = new Number(j);
-                Calclulator calculator = new Calclulator(A, B, CurrentOperation);
-
-                switch (CurrentOperation) {
-                    case "+":
+                Calclulator calculator = new Calclulator(A, B, Operation);
                         Assert.assertEquals("Тест на сложение. Число 1: " + A.getNumber() + " число 2: " + B.getNumber(), A.getNumber() + B.getNumber(), calculator.getResult(), 0);
-                        break;
-                    case "-":
-                        Assert.assertEquals("Тест на вычитание. Число 1: " + A.getNumber() + " число 2: " + B.getNumber(), A.getNumber() - B.getNumber(), calculator.getResult(), 0);
-                        break;
-                    case "*":
-                        Assert.assertEquals("Тест на умножение. Число 1: " + A.getNumber() + " число 2: " + B.getNumber(), A.getNumber() * B.getNumber(), calculator.getResult(), 0);
-                        break;
-                    case "/":
-                        Assert.assertEquals("Тест на деление. Число 1: " + A.getNumber() + " число 2: " + B.getNumber(), A.getNumber() / B.getNumber(), calculator.getResult(), 0);
-                        break;
                 }
             }
+    @Test
+    public  void TestMinus(){
+        String Operation = "-";
+        Double BeginNumber = 5.5;
+        for (int j = -5; j < 5; j++) {
+            Number A = new Number(BeginNumber);
+            Number B = new Number(j);
+            Calclulator calculator = new Calclulator(A, B, Operation);
+            Assert.assertEquals("Тест на вычитание. Число 1: " + A.getNumber() + " число 2: " + B.getNumber(), A.getNumber() - B.getNumber(), calculator.getResult(), 0);
+        }
+    }
+    @Test (expected = ArithmeticException.class)
+    public  void TestDivision(){
+        String Operation = "/";
+        Double BeginNumber = 5.5;
+        for (int j = -5; j < 5; j++) {
+            Number A = new Number(BeginNumber);
+            Number B = new Number(j);
+            Calclulator calculator = new Calclulator(A, B, Operation);
+            Assert.assertEquals("Тест на деление. Число 1: " + A.getNumber() + " число 2: " + B.getNumber(), A.getNumber() / B.getNumber(), calculator.getResult(), 0);
+        }
+    }
+    @Test
+    public  void TestMulti(){
+        String Operation = "*";
+        Double BeginNumber = 5.5;
+        for (int j = -5; j < 5; j++) {
+            Number A = new Number(BeginNumber);
+            Number B = new Number(j);
+            Calclulator calculator = new Calclulator(A, B, Operation);
+            Assert.assertEquals("Тест на умножение. Число 1: " + A.getNumber() + " число 2: " + B.getNumber(), A.getNumber() * B.getNumber(), calculator.getResult(), 0);
+        }
+        }
+
+    @Rule
+    public ExpectedException thrown = ExpectedException.none();
+    @Test
+    public  void ZeroDivision() throws ArithmeticException{
+        String Operation = "/";
+        for (int j = -5; j < 5; j++) {
+            Number A = new Number(j);
+            Number B = new Number(0);
+            thrown.expect(ArithmeticException.class);
+            Calclulator calculator = new Calclulator(A, B, Operation);
+            thrown = ExpectedException.none();
+            };
+
         }
     }
 
 
-}
+
