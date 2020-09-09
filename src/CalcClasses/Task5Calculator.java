@@ -20,7 +20,7 @@ public class Task5Calculator {
             try {
                 Calclulator Calc1 = new Calclulator(Number1, Number2, OperationType);
                 if (Calc1.getISResultOk()){System.out.println("Результат: " + Calc1.getResult());}
-                else { System.out.println("Результата нет. Что то пошло не так: Число 1: " + Number1.getNumber() + " Число 2: " + Number1.getNumber() + " Операция - " + Calc1.getOperation() );}
+                else { System.out.println("Результата нет. Что то пошло не так: Число 1: " + Number1.getNumber() + " Число 2: " + Number2.getNumber() + " Операция - " + Calc1.getOperation() );}
             } catch (ArithmeticException ae)
             {System.out.println("На ноль делить нелья!"); }
         }
